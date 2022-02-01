@@ -31,3 +31,42 @@ body {
 .primary-el {
     color: var(--primary-color);
 }
+
+/* Navbar */
+
+nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    /* padding: 0 1em; */
+    height: 45px;
+}
+
+.nav-item {
+    padding: 0 1rem;
+    font-size: 0.75em;
+    text-decoration: none;
+}
+
+.dropdowns {
+    font-weight: 700;
+}
+
+.dropdowns > a > i {
+    padding-left: 1em;
+}
+
+#site-logo {
+    margin-right: auto;
+}
+
+#site-logo > img {
+    display: block;
+    max-width: 63px;
+}
+
+#hamburger > i {
+    font-size: 0.8rem;
+    padding-left: 0.3em;
+}
