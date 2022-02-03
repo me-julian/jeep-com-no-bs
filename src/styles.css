@@ -1,5 +1,6 @@
 :root {
     --dark-color: #000;
+    --dark-transp: rgba(0, 0, 0, 0.65);
     --light-color: #fff;
     --primary-color: #ffba00;
     --primary-darkened: #eaab00;
@@ -7,6 +8,7 @@
 }
 
 body {
+    font-size: 14px;
     margin: 0;
     color: var(--dark-color);
     font-family: 'Roboto', sans-serif;
@@ -32,6 +34,37 @@ body {
     color: var(--primary-color);
 }
 
+/* Text */
+
+sub {
+    font-size: 0.4em;
+    line-height: 1em;
+    font-weight: 400;
+    vertical-align: baseline;
+}
+
+.txt-super {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+    font-size: 0.75em;
+    line-height: 1em;
+    margin: 0 0 0 0;
+}
+
+.txt-head {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+    font-size: 0.86em;
+    line-height: 1.1em;
+    margin: 0;
+}
+
+.txt-body {
+    font-size: 0.75em;
+    line-height: 1.36em;
+    margin: 0;
+}
+
 /* Navbar */
 
 nav {
@@ -39,14 +72,13 @@ nav {
     flex-flow: row nowrap;
     justify-content: flex-end;
     align-items: center;
-    /* padding: 0 1em; */
     height: 45px;
 }
 
 .nav-item {
     display: block;
     padding: 0 1rem;
-    font-size: 0.75em;
+    font-size: 0.85em;
     text-decoration: none;
 }
 
@@ -70,4 +102,98 @@ nav {
 #hamburger > i {
     font-size: 0.8rem;
     padding-left: 0.3em;
+}
+
+/* Slider */
+
+#slider {
+}
+
+#slider-toggle {
+    position: absolute;
+    right: 0;
+    color: var(--light-color);
+    background-color: var(--dark-transp);
+    padding: 0.5em 0.7em 0.6em 0.7em;
+}
+
+.slider-item {
+}
+
+#slider-item-1 {
+    /* background-image: url('/img/slider/mob/2022-Winter-BHP-White-Logo-Packshot-Incentives-February-Mobile.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    overflow: hidden;
+    width: 100%;
+}
+
+.slider-img {
+    display: block;
+    width: 100%;
+}
+
+#meatballs {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 36px;
+}
+
+.meatball {
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    border: 2px solid var(--grey);
+    border-radius: 50%;
+    margin: 0.15em;
+}
+
+.meatball:active {
+    background-color: var(--primary-color);
+}
+
+.zip-offers {
+    text-align: center;
+    font-size: 12px;
+}
+
+.zip-offers span,
+.zip-offers a {
+    color: var(--dark-color);
+    font-weight: 700;
+}
+
+/* Cards */
+
+.overlay-card {
+    text-align: center;
+    background-color: var(--dark-transp);
+    padding: 2em 1em;
+    margin: 0 10%;
+}
+
+.slider-card {
+    position: absolute;
+    width: 100%;
+    top: 73px;
+}
+
+/* Buttons */
+
+.button {
+    background-color: var(--primary-color);
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1em;
+    letter-spacing: 0.7px;
+    border-radius: 2px;
+    padding: 1em;
+    margin: 0.35em;
+}
+
+.inline-icon-r {
+    padding-left: 1em;
 }
