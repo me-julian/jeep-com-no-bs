@@ -107,6 +107,7 @@ nav {
 /* Slider */
 
 #slider {
+    position: relative;
 }
 
 #slider-toggle {
@@ -138,7 +139,7 @@ nav {
     position: absolute;
     text-align: center;
     width: 100%;
-    bottom: 36px;
+    bottom: 27px;
 }
 
 .meatball {
@@ -177,7 +178,7 @@ nav {
 .slider-card {
     position: absolute;
     width: 100%;
-    top: 73px;
+    top: 2em;
 }
 
 /* Buttons */
