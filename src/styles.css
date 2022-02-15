@@ -34,6 +34,8 @@ body {
     color: var(--primary-color);
 }
 
+.grey-bg
+
 /* Text */
 
 sub {
@@ -46,7 +48,6 @@ sub {
 .txt-super {
     font-family: 'Heebo', sans-serif;
     font-weight: 700;
-    font-size: 0.75em;
     line-height: 1em;
     margin: 0 0 0 0;
 }
@@ -54,15 +55,39 @@ sub {
 .txt-head {
     font-family: 'Heebo', sans-serif;
     font-weight: 700;
-    font-size: 0.86em;
     line-height: 1.1em;
     margin: 0;
 }
 
+.txt-subhead {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+    font-size: 0.85em;
+    margin: 0;
+}
+
 .txt-body {
-    font-size: 0.75em;
     line-height: 1.36em;
     margin: 0;
+}
+
+.txt-subscript {
+    font-size: 0.55em;
+    margin: 0;
+    margin-bottom: 0.25em;
+}
+
+.slider-card .txt-super {
+    font-size: 0.75em;
+    line-height: 0.75em;
+}
+
+.slider-card .txt-head {
+    font-size: 0.86em;
+}
+
+.slider-card .txt-body {
+    font-size: 0.75em;
 }
 
 /* Navbar */
@@ -104,6 +129,39 @@ nav {
     padding-left: 0.3em;
 }
 
+/* Cards */
+
+.overlay-card {
+    text-align: center;
+    background-color: var(--dark-transp);
+    padding: 2em 1em;
+    margin: 0 10%;
+}
+
+.slider-card {
+    position: absolute;
+    width: 100%;
+    top: 2em;
+}
+
+/* Buttons */
+
+.button {
+    background-color: var(--primary-color);
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1em;
+    letter-spacing: 0.7px;
+    border-radius: 2px;
+    padding: 1em;
+    margin: 0.35em;
+}
+
+.inline-icon-r {
+    padding-left: 1em;
+}
+
 /* Slider */
 
 #slider {
@@ -119,6 +177,7 @@ nav {
 }
 
 .slider-item {
+    /* Potentially redundant. */
 }
 
 #slider-item-1 {
@@ -166,35 +225,44 @@ nav {
     font-weight: 700;
 }
 
-/* Cards */
+/* Vehicle Showcase */
 
-.overlay-card {
+#vehicle-showcase {
     text-align: center;
-    background-color: var(--dark-transp);
-    padding: 2em 1em;
-    margin: 0 10%;
 }
 
-.slider-card {
-    position: absolute;
-    width: 100%;
-    top: 2em;
+#vehicle-showcase .txt-head {
+    font-size: 1.3em;
+    margin: 3.5rem 0 5em 0;
 }
 
-/* Buttons */
-
-.button {
-    background-color: var(--primary-color);
-    font-family: 'Heebo', sans-serif;
-    text-align: center;
-    font-weight: 700;
+#vehicle-showcase .txt-subhead {
+    font-size: 1em;
     line-height: 1em;
-    letter-spacing: 0.7px;
-    border-radius: 2px;
-    padding: 1em;
-    margin: 0.35em;
+    padding: 0 6%;
+    margin: 0;
+    margin-bottom: 0.6em;
 }
 
-.inline-icon-r {
-    padding-left: 1em;
+.price {
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 1.5em;
+}
+
+#flex-vehicles {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+.showcase-vehicle {
+    flex: 1 1 50%;
+    flex-grow: 0;
+}
+
+.showcase-img {
+    width: 87%;
+    padding: 0 4.7%;
 }
