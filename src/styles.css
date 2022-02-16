@@ -403,6 +403,7 @@ nav {
 
 #jeep-wave > img {
     max-width: 100%;
+    visibility: hidden;
 }
 
 #jeep-wave .txt-head {
@@ -413,6 +414,30 @@ nav {
 
 #jeep-wave .txt-body {
     margin-bottom: 1rem;
+}
+
+/* E-Shop Banner */
+
+#e-shop-banner {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    padding: 0;
+}
+
+#e-shop-banner > img {
+    max-width: 100%;
+    flex: 1;
+}
+
+#e-shop-banner > div {
+    flex: 1;
+    padding: 2rem;
+}
+
+#e-shop-banner .txt-body {
+    margin-top: 0.5em;
+    font-size: 0.7em;
 }
 
 /* Media Queries*/
