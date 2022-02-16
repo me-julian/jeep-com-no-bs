@@ -279,18 +279,13 @@ nav {
     padding: 0 4.7%;
 }
 
-/* "Tile" Showcase */
+/* "Tile" Showcases */
 
 .tiles {
     display: flex;
     flex-flow: row wrap;
     gap: 1em;
     text-align: center;
-}
-
-.tiles + .tiles {
-    /* Only for mobile view */
-    padding-top: 0;
 }
 
 .tile {
@@ -418,4 +413,12 @@ nav {
 
 #jeep-wave .txt-body {
     margin-bottom: 1rem;
+}
+
+/* Media Queries*/
+
+@media screen and (max-width: 699px) {
+    #body-tiles {
+        padding-top: 0;
+    }
 }
