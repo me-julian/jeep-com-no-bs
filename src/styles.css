@@ -15,6 +15,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+section {
+    padding: 1rem;
+}
+
 /* Colors */
 
 .dark {
@@ -172,6 +176,7 @@ nav {
 
 #slider {
     position: relative;
+    padding: 0;
 }
 
 #slider-toggle {
@@ -235,11 +240,12 @@ nav {
 
 #vehicle-showcase {
     text-align: center;
+    padding-bottom: 3.1rem;
 }
 
 #vehicle-showcase .txt-head {
     font-size: 1.3em;
-    margin: 3.5rem 0 5em 0;
+    margin: 2.5rem 0 5em 0;
 }
 
 #vehicle-showcase .txt-subhead {
@@ -280,7 +286,6 @@ nav {
     flex-flow: row wrap;
     gap: 1em;
     text-align: center;
-    padding: 1em;
 }
 
 .tiles + .tiles {
@@ -372,7 +377,7 @@ nav {
 }
 
 #wagoneer-banner > div {
-    padding: 76% 1.9rem 1.9rem 1.9rem;
+    margin: 76% 0.9rem 1.9rem 0.9rem;
 }
 
 #wagoneer-banner .txt-super {
