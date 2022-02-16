@@ -140,7 +140,7 @@ nav {
 .overlay-card {
     text-align: center;
     background-color: var(--dark-transp);
-    padding: 2em 1em;
+    padding: 2em 1.4em;
     margin: 0 10%;
 }
 
@@ -165,7 +165,7 @@ nav {
     letter-spacing: 0.7px;
     border-radius: 2px;
     padding: 1em;
-    margin: 0.35em;
+    margin: 0.35em 0;
 }
 
 .inline-icon-r {
@@ -391,4 +391,31 @@ nav {
 
 #wagoneer-banner .txt-body {
     font-size: 0.7em;
+}
+
+/* Jeep Wave */
+
+#jeep-wave {
+    display: flex;
+    flex-flow: column nowrap;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-image: url('/img/logos/jeep-wave/jeep-wave-1000.jpg');
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#jeep-wave > img {
+    max-width: 100%;
+}
+
+#jeep-wave .txt-head {
+    font-size: 1.9em;
+    line-height: 1em;
+    margin: 2rem 0 1rem 0;
+}
+
+#jeep-wave .txt-body {
+    margin-bottom: 1rem;
 }
