@@ -96,6 +96,13 @@ sub {
     font-size: 0.7em;
 }
 
+.link-icon {
+    font-size: 11px;
+    position: relative;
+    bottom: 1px;
+    padding-left: 0.75em;
+}
+
 /* Navbar */
 
 nav {
@@ -474,6 +481,71 @@ nav {
 /* Auto Show Banner -- Unused */
 
 /* Jeep Community */
+
+#community {
+    text-align: center;
+    padding: 2rem 0 0 0;
+}
+
+#community > .txt-head {
+    font-size: 1.85em;
+    line-height: 1em;
+    padding-bottom: 4rem;
+}
+
+#community-links {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#community-links > div {
+    flex: 1;
+    flex-basis: 160px;
+    margin-bottom: 1rem;
+}
+
+#community-links > div a {
+    position: relative;
+    top: 7.5rem;
+    color: var(--light-color);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#community-1 {
+    background-image: url('/img/social/youtube/mob/youtube-tab.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#community-2 {
+    background-image: url('/img/social/instagram/mob/instagram-tab.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#community-3 {
+    background-image: url('/img/social/facebook/mob/facebook-mob.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#community-4 {
+    background-image: url('/img/social/twitter/mob/twitter-mob.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#community-5 {
+    background-image: url('/img/social/linkedin/mob/linkedin-mob.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
 
 /* Media Queries*/
 
