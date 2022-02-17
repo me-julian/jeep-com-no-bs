@@ -410,21 +410,21 @@ nav {
 
 /* Wagoneer Banner */
 
-#wagoneer-banner > div {
+#wagoneer > div {
     padding-top: 0;
 }
 
-#wagoneer-banner .txt-super {
+#wagoneer .txt-super {
     font-size: 0.75em;
     margin-top: 0.5em;
     margin-bottom: 2rem;
 }
 
-#wagoneer-banner .txt-head {
+#wagoneer .txt-head {
     font-size: 1.3em;
 }
 
-#wagoneer-banner .txt-body {
+#wagoneer .txt-body {
     font-size: 0.7em;
 }
 
@@ -437,9 +437,7 @@ nav {
 }
 
 #jeep-wave > div {
-    padding-top: 0;
-    padding-left: 1.6rem;
-    padding-right: 1.6rem;
+    padding: 0 1.6rem 1rem 1.6rem;
 }
 
 #jeep-wave > img {
@@ -468,12 +466,12 @@ nav {
 
 /* E-Shop Banner */
 
-#e-shop-banner > img {
+#e-shop > img {
     max-width: 100%;
     flex: 1;
 }
 
-#e-shop-banner .txt-body {
+#e-shop .txt-body {
     margin-top: 0.5em;
     font-size: 0.7em;
 }
