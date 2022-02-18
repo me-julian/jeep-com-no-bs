@@ -654,12 +654,9 @@ footer a {
     padding-bottom: 25px;
 }
 
-#footer-links p {
-    padding-top: 14px;
-}
-
 .category {
     border-bottom: 1px solid var(--light-color);
+    padding-top: 14px;
     padding-bottom: 14px;
 }
 
@@ -721,6 +718,7 @@ footer a {
 
 #footer-logos p {
     padding-bottom: 20px;
+    line-height: 17px;
 }
 
 #footer-logos > .logo-links:first-of-type {
@@ -740,12 +738,61 @@ footer a {
     display: flex;
     flex-flow: row wrap;
     gap: 8px;
+    line-height: 25px;
 }
 
 /* Footer - Bottom Footer */
 
 #bottom-footer {
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+#bottom-footer > div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#bottom-footer img {
+    max-height: 26px;
+}
+
+#bottom-links {
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 15px;
+    font-size: 10px;
+    line-height: 10px;
+}
+
+#bottom-links > a {
+    padding-bottom: 15px;
+}
+
+#bottom-logos {
+    display: flex;
+    gap: 1em;
+    margin-bottom: 20px;
+}
+
+#bottom-logos > a {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 0.5em;
+}
+
+#copyright {
+    font-size: 10px;
+    line-height: 13px;
+}
+
+#copyright > div {
+    margin-bottom: 15px;
+}
+
+#copyright-link {
+    text-decoration: underline;
 }
 
 /* Media Queries*/
