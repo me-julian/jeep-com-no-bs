@@ -53,6 +53,10 @@ sub {
     vertical-align: baseline;
 }
 
+sup {
+    font-size: 0.7em;
+}
+
 .txt-super {
     font-family: 'Heebo', sans-serif;
     line-height: 1em;
@@ -628,7 +632,121 @@ footer a {
 
 /* Footer - Mid Footer */
 
+#mid-footer {
+    display: flex;
+    flex-flow: column nowrap;
+    padding-top: 35px;
+}
+
+#mid-footer p {
+    font-size: 12px;
+    margin: 0;
+    font-weight: 700;
+}
+
+#mid-footer > hr {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.22);
+    margin: 0;
+}
+
+#footer-links {
+    padding-bottom: 25px;
+}
+
+#footer-links p {
+    padding-top: 14px;
+}
+
+.category {
+    border-bottom: 1px solid var(--light-color);
+    padding-bottom: 14px;
+}
+
+.link-head {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    line-height: 17px;
+    cursor: pointer;
+}
+
+.link-head i:first-of-type {
+    margin-left: auto;
+}
+
+.link-head i:last-of-type {
+    margin-left: auto;
+    display: none;
+}
+
+.toggle-category {
+    display: none;
+}
+
+.toggle-category:checked + .link-head i:first-of-type {
+    display: none;
+}
+
+.toggle-category:checked + .link-head i:last-of-type {
+    display: initial;
+}
+
+.toggle-category:checked + .link-head + .link-list {
+    display: flex;
+}
+
+.link-list {
+    display: none;
+    flex-flow: row wrap;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.link-list a {
+    flex: 1;
+    flex-basis: calc(50% - 20px);
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#footer-logos {
+    display: flex;
+    flex-flow: row nowrap;
+    column-gap: 3px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    width: 100%;
+}
+
+#footer-logos p {
+    padding-bottom: 20px;
+}
+
+#footer-logos > .logo-links:first-of-type {
+    flex: 1.15;
+}
+
+#footer-logos > .logo-links:last-of-type {
+    flex: 1;
+}
+
+.logo-links {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.logo-links > div {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 8px;
+}
+
 /* Footer - Bottom Footer */
+
+#bottom-footer {
+    padding: 20px;
+}
 
 /* Media Queries*/
 
