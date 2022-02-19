@@ -511,7 +511,11 @@ nav {
 
 #community-links > div {
     flex: 1;
-    flex-basis: 160px;
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 1em;
 }
 
@@ -520,23 +524,29 @@ div#community-2 {
     margin-bottom: 0.5em;
 }
 
+#community-links > div > img {
+    flex: 1;
+    width: 100%;
+    visibility: hidden;
+}
+
 #community-links > div a {
-    position: relative;
-    top: 7.5rem;
+    position: absolute;
+    bottom: 25px;
     color: var(--light-color);
     text-decoration: none;
     font-weight: 500;
 }
 
 #community-1 {
-    background-image: url('/img/social/youtube/mob/youtube-tab.jpg');
+    background-image: url('/img/social/youtube/mob/youtube-mob.jpg');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
 }
 
 #community-2 {
-    background-image: url('/img/social/instagram/mob/instagram-tab.jpg');
+    background-image: url('/img/social/instagram/mob/instagram-mob.jpg');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
