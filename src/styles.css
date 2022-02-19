@@ -201,6 +201,10 @@ nav {
     flex: 0;
 }
 
+.button:active {
+    background-color: var(--primary-darkened);
+}
+
 /* Slider */
 
 #slider {
@@ -274,7 +278,7 @@ nav {
 
 #vehicle-showcase .txt-head {
     font-size: 1.3em;
-    margin: 2.5rem 0 5em 0;
+    margin: 2rem 0 1rem 0;
 }
 
 #vehicle-showcase .txt-subhead {
@@ -295,7 +299,6 @@ nav {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    padding: 0 15px;
 }
 
 .showcase-vehicle {
@@ -324,7 +327,7 @@ nav {
 }
 
 .tile > div {
-    margin: 66% 0.75rem 1rem 0.75rem;
+    margin: 66% 0.75rem 1.5rem 0.75rem;
 }
 
 #body-tiles > .tile > div {
@@ -599,6 +602,7 @@ footer a {
     font-size: 0;
     width: 100%;
     padding: 0 0.25rem;
+    margin-top: 10px;
 }
 
 .search-bar > input {
@@ -703,6 +707,7 @@ footer a {
 .link-list a {
     flex: 1;
     flex-basis: calc(50% - 20px);
+    line-height: 20px;
     margin-right: 10px;
     margin-bottom: 10px;
 }
@@ -767,6 +772,7 @@ footer a {
 
 #bottom-links > a {
     padding-bottom: 15px;
+    line-height: 14px;
 }
 
 #bottom-logos {
