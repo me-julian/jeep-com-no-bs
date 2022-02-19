@@ -327,11 +327,15 @@ nav {
 }
 
 .tile > div {
-    margin: 66% 0.75rem 1.5rem 0.75rem;
+    margin: 17.5rem 0.75rem 1.5rem 0.75rem;
 }
 
-#body-tiles > .tile > div {
-    margin-top: 60%;
+#tile-4 > div {
+    margin-top: 15rem;
+}
+
+#tile-5 > div {
+    margin-top: 16.5rem;
 }
 
 .tile .txt-head {
@@ -508,7 +512,12 @@ nav {
 #community-links > div {
     flex: 1;
     flex-basis: 160px;
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
+}
+
+div#community-1,
+div#community-2 {
+    margin-bottom: 0.5em;
 }
 
 #community-links > div a {
@@ -803,8 +812,8 @@ footer a {
 
 /* Media Queries*/
 
-@media screen and (max-width: 699px) {
+/* @media screen and (max-width: 699px) {
     #body-tiles {
         padding-top: 0;
     }
-}
+} */
