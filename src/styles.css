@@ -488,13 +488,14 @@ nav {
 
 #community {
     text-align: center;
-    padding: 2rem 0 0 0;
+    padding: 0;
 }
 
 #community > .txt-head {
     font-size: 1.85em;
     line-height: 1em;
-    padding-bottom: 4rem;
+    padding-top: 2.5rem;
+    padding-bottom: 3.5rem;
 }
 
 #community-links {
@@ -831,13 +832,11 @@ footer a {
 }
 
 @media screen and (min-width: 667px) {
+    .button {
+        display: inline-block;
+    }
     .show-667 {
         display: initial;
-    }
-    .overlay-card .button {
-        max-width: 200px;
-        margin-left: auto;
-        margin-right: auto;
     }
     .slider-card {
         top: 52px;
@@ -870,6 +869,10 @@ footer a {
     #tile-5 > div {
         margin-top: 85%;
         background-size: cover !important;
+    }
+    #jeep-wave > div {
+        padding-right: 2rem;
+        padding-left: 2rem;
     }
 }
 
