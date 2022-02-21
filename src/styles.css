@@ -315,7 +315,7 @@ nav {
 
 .tiles {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column nowrap;
     gap: 1em;
     text-align: center;
 }
@@ -324,18 +324,21 @@ nav {
     flex: 1;
     min-width: 205px;
     color: var(--light-color);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .tile > div {
-    margin: 17.5rem 0.75rem 1.5rem 0.75rem;
+    margin: 15rem 0.75rem 1.5rem 0.75rem;
 }
 
 #tile-4 > div {
-    margin-top: 15rem;
+    margin-top: 12rem;
 }
 
 #tile-5 > div {
-    margin-top: 16.5rem;
+    margin-top: 12.5rem;
 }
 
 .tile .txt-head {
@@ -364,33 +367,23 @@ nav {
 
 #tile-1 {
     background-image: url('/img/tiles/mob/tiles-compass-mob.jpg');
-    background-position: top;
-    background-size: cover;
 }
 
 #tile-2 {
     background-image: url('/img/tiles/mob/tiles-wrangler-mob.jpg');
-    background-position: top;
-    background-size: cover;
 }
 
 #tile-3 {
-    background-image: url('/img/tiles/mob/tiles-gladiator-tab.jpg');
-    background-position: top 40% right 50%;
-    background-size: cover;
+    background-image: url('/img/tiles/mob/tiles-gladiator-mob.jpg');
 }
 
 #tile-4 {
     background-image: url('/img/tiles/mob/tiles-red-tab.jpg');
-    background-position: top;
-    background-size: cover;
 }
 
 #tile-5 {
     color: var(--dark-color);
     background-image: url('/img/tiles/mob/tiles-kbb-mob.jpg');
-    background-position: top;
-    background-size: cover;
 }
 
 /* Banners */
@@ -859,6 +852,24 @@ footer a {
     }
     .showcase-vehicle {
         flex-basis: 33.33%;
+    }
+    .tile {
+        height: 509px;
+        background-size: contain !important;
+    }
+    .tile > div {
+        margin-top: 85%;
+    }
+    #tile-4,
+    #tile-5 {
+        background-size: cover !important;
+    }
+    #tile-4 > div {
+        margin-top: 85%;
+    }
+    #tile-5 > div {
+        margin-top: 85%;
+        background-size: cover !important;
     }
 }
 
