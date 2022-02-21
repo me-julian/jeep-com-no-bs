@@ -94,19 +94,6 @@ sup {
     margin-bottom: 0.25em;
 }
 
-.slider-card .txt-super {
-    font-size: 0.75em;
-    line-height: 0.75em;
-}
-
-.slider-card .txt-head {
-    font-size: 0.86em;
-}
-
-.slider-card .txt-body {
-    font-size: 0.7em;
-}
-
 .link-icon {
     font-size: 10px;
     position: relative;
@@ -142,6 +129,7 @@ nav {
 
 #site-logo {
     margin-right: auto;
+    padding-left: 0.85em;
 }
 
 #site-logo > img {
@@ -171,6 +159,16 @@ nav {
 
 .slider-card .txt-super {
     font-weight: 700;
+    font-size: 0.75em;
+    line-height: 0.74em;
+}
+
+.slider-card .txt-head {
+    font-size: 0.86em;
+}
+
+.slider-card .txt-body {
+    font-size: 0.74em;
 }
 
 /* Buttons */
@@ -226,16 +224,7 @@ nav {
     padding: 0.5em 0.7em 0.6em 0.7em;
 }
 
-.slider-item {
-    /* Potentially redundant. */
-}
-
 #slider-item-1 {
-    /* background-image: url('/img/slider/mob/2022-Winter-BHP-White-Logo-Packshot-Incentives-February-Mobile.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; */
-    overflow: hidden;
     width: 100%;
 }
 
@@ -834,6 +823,12 @@ footer a {
     display: none;
 }
 
+@media (orientation: landscape) {
+    #site-logo {
+        padding-left: 15px;
+    }
+}
+
 @media screen and (min-width: 667px) {
     .button {
         display: inline-block;
@@ -950,10 +945,44 @@ footer a {
     }
 }
 
-/* @media screen and (min-width: 768px) {
+.show-700 {
+    display: none;
+}
+
+@media screen and (min-width: 700px) {
+    .show-700 {
+        display: initial;
+    }
+    .hide-700 {
+        display: none;
+    }
+
+    nav {
+        height: 80px;
+    }
+    #site-logo > img {
+        max-width: 86px;
+    }
+
+    .slider-card {
+        top: 1.25rem;
+    }
+    .overlay-card {
+        padding-top: 40px;
+        padding-bottom: 35px;
+    }
+    .slider-card .overlay-card div:first-of-type {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .slider-card .txt-head {
+        font-size: 15px;
+    }
+
     .search-bar > input {
-            max-width: 255px;
-} */
+        max-width: 215px;
+    }
+}
 
 /* @media screen and (min-width: 1024px) {
 } */
