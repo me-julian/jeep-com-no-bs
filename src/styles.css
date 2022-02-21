@@ -20,6 +20,12 @@ section {
     padding: 1rem;
 }
 
+hr {
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.22);
+    margin: 0;
+}
+
 /* Colors */
 
 .dark {
@@ -663,12 +669,6 @@ footer a {
     font-weight: 700;
 }
 
-#mid-footer > hr {
-    border: none;
-    border-top: 1px solid rgba(255, 255, 255, 0.22);
-    margin: 0;
-}
-
 #footer-links {
     padding-bottom: 25px;
 }
@@ -761,6 +761,11 @@ footer a {
     line-height: 25px;
 }
 
+#mid-footer + hr {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+
 /* Footer - Bottom Footer */
 
 #bottom-footer {
@@ -839,6 +844,7 @@ footer a {
     .slider-card {
         top: 52px;
     }
+
     #vehicle-showcase {
         padding-left: 1.5rem;
         padding-right: 1.5rem;
@@ -850,6 +856,7 @@ footer a {
     .showcase-vehicle {
         flex-basis: 33.33%;
     }
+
     .tile {
         height: 509px;
         background-size: contain !important;
@@ -868,7 +875,13 @@ footer a {
         margin-top: 85%;
         background-size: cover !important;
     }
+
     #jeep-wave > div {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+
+    footer > div {
         padding-right: 2rem;
         padding-left: 2rem;
     }
@@ -881,6 +894,59 @@ footer a {
         flex-basis: calc(33.33% - 3.6%);
         padding-left: 1.6%;
         padding-right: 1.6%;
+    }
+    #mid-footer {
+        height: 1600px;
+        flex-flow: row nowrap;
+        padding-top: 50px;
+    }
+    #footer-links {
+        display: flex;
+        flex-flow: column wrap;
+        flex-basis: 66.66%;
+        padding-right: 28px;
+        padding-left: 28px;
+        padding-bottom: 0;
+    }
+    .category {
+        border-bottom: none;
+        width: 50%;
+        padding-top: 0;
+        padding-bottom: 45px;
+    }
+    .toggle-icon {
+        display: none !important;
+    }
+    .link-list {
+        display: flex;
+        flex-flow: column nowrap;
+        width: auto;
+        padding-right: 50px;
+    }
+    #footer-logos {
+        display: block;
+        flex-basis: 33.33%;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .logo-links {
+        padding-bottom: 45px;
+    }
+    .logo-links > div {
+        column-gap: 20px;
+    }
+    #mid-footer + hr {
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    #bottom-logos,
+    #bottom-links {
+        padding-left: 38px;
+        padding-right: 38px;
+    }
+    #copyright {
+        padding-right: 10px;
+        padding-left: 10px;
     }
 }
 
