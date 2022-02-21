@@ -826,12 +826,19 @@ footer a {
 
 /* Media Queries*/
 
-.width-510 {
+/* Target Widths: */
+/* iPhone SE Portrait: 375px */
+/* iPhone SE Landscape: 667px */
+/* iPad Mini Portait 768px */
+/* iPad Mini Landscape 1024px */
+/* Desktop 1440px */
+
+.show-667 {
     display: none;
 }
 
-@media screen and (min-width: 510px) {
-    .width-510 {
+@media screen and (min-width: 667px) {
+    .show-667 {
         display: initial;
     }
     .overlay-card .button {
@@ -839,8 +846,32 @@ footer a {
         margin-left: auto;
         margin-right: auto;
     }
+    .slider-card {
+        top: 52px;
+    }
+    #vehicle-showcase {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    #flex-vehicles {
+        padding-right: 4.7%;
+        padding-left: 4.7%;
+    }
+    .showcase-vehicle {
+        flex-basis: 33.33%;
+    }
 }
 
-/* @media screen and (max-width: 699px) {
-    }
+/* @media screen and (min-width: 768px) {
+} */
+
+/* @media screen and (min-width: 1024px) {
+} */
+
+/* @media screen and (min-width: 1440px) {
+} */
+
+/* @media screen and (min-width: 510px) {
+
+
 } */
