@@ -529,6 +529,7 @@ div#community-2 {
     color: var(--light-color);
     text-decoration: none;
     font-weight: 500;
+    padding-right: 17px;
 }
 
 #community-1 {
@@ -960,9 +961,6 @@ footer a {
     .hide-700 {
         display: none;
     }
-    /* .active-700 {
-        visibility: hidden;
-    } */
 
     nav {
         height: 80px;
@@ -1124,6 +1122,9 @@ footer a {
         flex-basis: calc(33.33% - 15px);
         margin-bottom: 20px;
     }
+    #community-top-row > div a {
+        bottom: 16px;
+    }
     #community-bottom-row {
         flex-flow: row wrap;
         gap: 20px;
@@ -1131,6 +1132,9 @@ footer a {
     #community-bottom-row > div {
         flex-basis: calc(50% - 20px);
         margin-bottom: 20px;
+    }
+    #community-bottom-row > div a {
+        bottom: 32px;
     }
     #community-1 {
         background-image: url('/img/social/youtube/mob/youtube-tab.jpg');
