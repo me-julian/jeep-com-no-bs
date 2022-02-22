@@ -337,7 +337,7 @@ nav {
 }
 
 .tile .txt-head {
-    font-size: 1.7em;
+    font-size: 23px;
     line-height: 1em;
     padding-bottom: 1rem;
 }
@@ -1002,6 +1002,53 @@ footer a {
     #flex-vehicles .txt-subhead {
         padding-right: 0;
         padding-left: 0;
+    }
+
+    .tiles {
+        flex-flow: row wrap;
+        gap: 20px;
+        padding: 4px;
+    }
+    .tile > div {
+        margin-right: 12px;
+        margin-left: 12px;
+        margin-bottom: 20px;
+    }
+    #tile-1 {
+        background-image: url('/img/tiles/mob/tiles-compass-tab.jpg');
+        height: auto;
+        background-size: cover !important;
+    }
+    #tile-2 {
+        background-image: url('/img/tiles/mob/tiles-wrangler-tab.jpg');
+        height: auto;
+        background-size: cover !important;
+    }
+    #tile-3 {
+        background-image: url('/img/tiles/mob/tiles-gladiator-tab.jpg');
+        height: auto;
+        background-size: cover !important;
+    }
+    #tile-3 .txt-head {
+        padding-top: 1em;
+    }
+    #tile-4 {
+        background-image: url('/img/tiles/mob/tiles-red-tab.jpg');
+        height: auto;
+        background-size: cover !important;
+    }
+    #tile-4 > div {
+        margin-top: 16em;
+        margin-bottom: 35px;
+    }
+    #tile-5 {
+        background-image: url('/img/tiles/mob/tiles-kbb-tab.jpg');
+        height: auto;
+        background-size: cover !important;
+    }
+    #tile-5 > div {
+        margin-top: calc(16em - 19px);
+        margin-bottom: 35px;
     }
 }
 
