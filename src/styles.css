@@ -1050,6 +1050,38 @@ footer a {
         margin-top: calc(16em - 19px);
         margin-bottom: 35px;
     }
+
+    #wagoneer > div {
+        padding-top: 2rem;
+    }
+    #wagoneer .txt-head {
+        font-size: 20px;
+    }
+    #wagoneer .txt-body {
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .banner {
+        position: relative;
+    }
+    .banner > .overlay-card {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 40px;
+        width: 30%;
+        margin: 0;
+    }
+    .banner > .overlay-card:last-of-type {
+        top: calc(100% - 12px);
+        left: 0px;
+        width: 100%;
+        padding: 0 !important;
+    }
+    .banner > .overlay-card:last-of-type .txt-super {
+        padding: 10px !important;
+        margin: 0 !important;
+    }
 }
 
 /* @media screen and (min-width: 1024px) {
