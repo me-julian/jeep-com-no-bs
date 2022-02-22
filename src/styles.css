@@ -982,6 +982,27 @@ footer a {
     .search-bar > input {
         max-width: 215px;
     }
+
+    #vehicle-showcase .txt-head {
+        font-size: 23px;
+    }
+    #flex-vehicles {
+        gap: 5px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .showcase-vehicle {
+        flex-basis: calc(25% - 5px);
+    }
+    .showcase-img {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .showcase-vehicle > *,
+    #flex-vehicles .txt-subhead {
+        padding-right: 0;
+        padding-left: 0;
+    }
 }
 
 /* @media screen and (min-width: 1024px) {
