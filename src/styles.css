@@ -721,6 +721,10 @@ footer a {
     margin-bottom: 10px;
 }
 
+.link-list a > span {
+    display: inline-block;
+}
+
 #footer-logos {
     display: flex;
     flex-flow: row nowrap;
@@ -753,6 +757,10 @@ footer a {
     flex-flow: row wrap;
     gap: 8px;
     line-height: 25px;
+}
+
+#support-links > div {
+    flex-direction: column;
 }
 
 #mid-footer + hr {
@@ -1150,6 +1158,35 @@ footer a {
     }
     #community-5 {
         background-image: url('/img/social/linkedin/mob/linkedin-tab.jpg');
+    }
+
+    #top-footer {
+        padding-top: 35px;
+        padding-right: 82px;
+        padding-left: 82px;
+        row-gap: 25px;
+    }
+    #mid-footer {
+        height: 1420px;
+        padding-right: 55px;
+        padding-left: 55px;
+    }
+    #mid-footer + hr {
+        margin-right: 4.5rem;
+        margin-left: 4.5rem;
+    }
+    #bottom-logos,
+    #bottom-links {
+        padding-right: 56px;
+        padding-left: 56px;
+    }
+    #bottom-links {
+        padding-bottom: 5px !important;
+    }
+    #copyright {
+        padding-top: 0px !important;
+        padding-right: 46px;
+        padding-left: 46px;
     }
 }
 
