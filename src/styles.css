@@ -1259,6 +1259,34 @@ footer a {
     #expanded-hamburger > .nav-item:last-of-type {
         margin-left: 9px;
     }
+
+    .slider-card {
+        top: 4.5%;
+        width: auto;
+        margin-right: auto;
+        margin-left: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .slider-card .txt-super {
+        font-size: 15px;
+        line-height: 1em;
+    }
+    .slider-card .txt-head {
+        font-size: 24px;
+        line-height: 1em;
+    }
+    .slider-card .txt-body {
+        font-size: 11px;
+        line-height: 1.5em;
+    }
+    .slider-card .button {
+        font-size: 11px;
+    }
+
+    #meatballs {
+        bottom: 35px;
+    }
 }
 
 /* @media screen and (min-width: 1440px) {
