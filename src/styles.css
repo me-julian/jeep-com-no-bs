@@ -1306,6 +1306,45 @@ footer a {
         font-weight: 700;
         line-height: 1em;
     }
+
+    .tiles {
+        padding: 14px;
+        gap: 30px;
+    }
+
+    .tile > div {
+        margin-top: 45%;
+        margin-right: 12px;
+        margin-left: 12px;
+        margin-bottom: 30px;
+    }
+    #tile-1 {
+        background-image: url('/img/tiles/desk/tiles-compass-desk.jpg');
+    }
+    #tile-2 {
+        background-image: url('/img/tiles/desk/tiles-wrangler-desk.jpg');
+    }
+    #tile-2 > div {
+        margin-top: calc(45% - 23px);
+    }
+    #tile-3 {
+        background-image: url('/img/tiles/desk/tiles-gladiator-desk.jpg');
+    }
+    #tile-3 .txt-head {
+        padding-top: 0;
+    }
+    #tile-4 {
+        background-image: url('/img/tiles/desk/tiles-red-desk.jpg');
+    }
+    #tile-4 > div {
+        margin: 26% 100px 40px;
+    }
+    #tile-5 {
+        background-image: url('/img/tiles/desk/tiles-kbb-desk.jpg');
+    }
+    #tile-5 > div {
+        margin: 26% 100px 40px;
+    }
 }
 
 /* @media screen and (min-width: 1440px) {
