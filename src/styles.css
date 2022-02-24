@@ -1345,6 +1345,30 @@ footer a {
     #tile-5 > div {
         margin: 26% 100px 40px;
     }
+
+    #wagoneer > .overlay-card {
+        left: 5%;
+        width: 25%;
+        z-index: 1;
+        padding-bottom: 0px !important;
+        padding-top: 25px !important;
+        height: calc((300 / 1450) * 100vw - 26px);
+    }
+    #wagoneer .txt-head {
+        font-size: 28px;
+    }
+    #wagoneer .txt-body {
+        font-size: 11px;
+        line-height: 1.5em;
+    }
+    #wagoneer .button {
+        font-size: 11px;
+        line-height: 20px;
+    }
+    #wagoneer > .overlay-card:last-of-type {
+        height: auto;
+        z-index: 0;
+    }
 }
 
 /* @media screen and (min-width: 1440px) {
