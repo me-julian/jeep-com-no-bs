@@ -1283,9 +1283,28 @@ footer a {
     .slider-card .button {
         font-size: 11px;
     }
-
     #meatballs {
         bottom: 35px;
+    }
+
+    #vehicle-showcase {
+        padding-bottom: 20px;
+    }
+    #vehicle-showcase > .txt-head {
+        font-size: 30px;
+        line-height: 1em;
+    }
+    #flex-vehicles {
+        padding-right: 6px;
+        padding-left: 6px;
+    }
+    .showcase-vehicle {
+        flex-basis: calc(20% - 5px);
+    }
+    .price {
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 1em;
     }
 }
 
