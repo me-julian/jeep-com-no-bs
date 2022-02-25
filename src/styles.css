@@ -105,11 +105,19 @@ sup {
 /* Navbar */
 
 nav {
+    position: fixed;
+    z-index: 999;
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
     align-items: center;
     height: 45px;
+    width: 100%;
+}
+
+#content {
+    position: relative;
+    top: 45px;
 }
 
 .nav-item {
@@ -972,6 +980,10 @@ footer a {
 
     nav {
         height: 80px;
+    }
+    #content {
+        position: relative;
+        top: 80px;
     }
     #site-logo > img {
         max-width: 86px;
