@@ -464,7 +464,7 @@ nav {
 
 #jeep-wave .txt-body {
     margin-bottom: 1rem;
-    line-height: 1.4em;
+    line-height: 1.5em;
 }
 
 #jeep-wave .button span {
@@ -487,8 +487,6 @@ nav {
     margin-top: 0.5em;
     font-size: 0.7em;
 }
-
-/* Auto Show Banner -- Unused */
 
 /* Jeep Community */
 
@@ -851,8 +849,38 @@ footer a {
 /* iPad Mini Landscape 1024px */
 /* Desktop 1440px */
 
-.show-667 {
+/* Helper classes for swapping elements */
+
+.swappable {
     display: none;
+}
+
+@media screen and (max-width: 666px) {
+    /* All sizes below 667px */
+    .show-mob {
+        display: initial;
+    }
+}
+@media screen and (min-width: 667px) and (max-width: 767px) {
+    .show-667 {
+        display: initial;
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 1023px) {
+    .show-700 {
+        display: initial;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .show-1024 {
+        display: initial;
+    }
+}
+@media screen and (min-width: 1440px) {
+    /* All sizes above 1440px */
+    .show-1440 {
+        display: initial;
+    }
 }
 
 @media (orientation: landscape) {
@@ -864,9 +892,6 @@ footer a {
 @media screen and (min-width: 667px) {
     .button {
         display: inline-block;
-    }
-    .show-667 {
-        display: initial;
     }
     .slider-card {
         top: 52px;
@@ -982,18 +1007,7 @@ footer a {
     }
 }
 
-.show-700 {
-    display: none;
-}
-
 @media screen and (min-width: 700px) {
-    .show-700 {
-        display: initial;
-    }
-    .hide-700 {
-        display: none;
-    }
-
     nav {
         height: 80px;
     }
@@ -1148,6 +1162,7 @@ footer a {
     }
 
     #community > .txt-head {
+        padding-top: 75px;
         font-size: 33px;
     }
     #community-top-row {
@@ -1204,9 +1219,12 @@ footer a {
         width: 83.33vw;
     }
     #mid-footer {
-        height: 1420px;
+        height: 1375px;
         padding-right: 55px;
         padding-left: 55px;
+    }
+    .link-list > a {
+        margin-right: 0;
     }
     #bottom-logos,
     #bottom-links {
@@ -1220,21 +1238,11 @@ footer a {
         padding-top: 0px !important;
         padding-right: 46px;
         padding-left: 46px;
+        padding-bottom: 20px;
     }
-}
-
-.show-1024 {
-    display: none;
 }
 
 @media screen and (min-width: 1024px) {
-    .show-1024 {
-        display: initial;
-    }
-    .hide-1024 {
-        display: none;
-    }
-
     nav {
         justify-content: flex-start;
     }
@@ -1413,18 +1421,12 @@ footer a {
         max-height: 164px;
         flex-basis: 50%;
     }
-    #jeep-wave > .show-700 {
-        display: none;
-    }
     #jeep-wave > div {
         padding: 70px;
         padding-bottom: 45px;
     }
     #jeep-wave .txt-head {
         margin-top: 0;
-    }
-    #jeep-wave .txt-body {
-        line-height: 1.5em;
     }
     #jeep-wave .button {
         margin-bottom: 20px;
@@ -1446,7 +1448,6 @@ footer a {
     }
 
     #community > .txt-head {
-        padding-top: 75px;
         padding-bottom: 70px;
     }
     #community-top-row {
@@ -1468,9 +1469,6 @@ footer a {
     }
     #community-bottom-row > div a {
         bottom: 40px;
-    }
-    #community img.show-700 {
-        display: none;
     }
 
     #community-4 > img,
@@ -1518,9 +1516,6 @@ footer a {
     .link-list {
         padding-right: 0px;
     }
-    .link-list > a {
-        margin-right: 0;
-    }
     #bottom-logos,
     #bottom-links {
         padding-top: 0;
@@ -1547,7 +1542,6 @@ footer a {
     #copyright {
         max-width: 41.66%;
         padding-left: 61px;
-        padding-bottom: 20px;
     }
 }
 
