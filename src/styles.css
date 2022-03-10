@@ -1278,7 +1278,8 @@ footer a {
         letter-spacing: 0.7px;
     }
     #expanded-hamburger i {
-        color: var(--grey);
+        color: var(--light-color);
+        opacity: 0.5;
         padding-right: 6px;
     }
     #expanded-hamburger > #spanish {
