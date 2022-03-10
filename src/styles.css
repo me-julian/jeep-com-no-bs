@@ -1446,6 +1446,7 @@ footer a {
     }
 
     #community > .txt-head {
+        padding-top: 75px;
         padding-bottom: 70px;
     }
     #community-top-row {
