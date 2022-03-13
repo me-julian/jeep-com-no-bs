@@ -169,7 +169,6 @@ nav {
 }
 
 .slider-card .txt-super {
-    font-weight: 700;
     font-size: 0.75em;
     line-height: 0.74em;
 }
@@ -180,6 +179,8 @@ nav {
 
 .slider-card .txt-body {
     font-size: 0.74em;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 /* Buttons */
@@ -1033,6 +1034,10 @@ footer a {
     .slider-card .txt-head {
         font-size: 15px;
     }
+    .slider-card .txt-body {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 
     .search-bar > input {
         max-width: 215px;
@@ -1310,10 +1315,6 @@ footer a {
         left: 50%;
         transform: translateX(-50%);
     }
-    .slider-card .txt-super {
-        font-size: 15px;
-        line-height: 1em;
-    }
     .slider-card .txt-head {
         font-size: 24px;
         line-height: 1em;
@@ -1584,5 +1585,28 @@ footer a {
     #spanish {
         padding-right: 16px;
         padding-left: 16px;
+    }
+
+    .slider-card {
+        width: 50%;
+        margin: 0;
+    }
+    .slider-card > .overlay-card {
+        padding: 40px;
+        margin: 0;
+    }
+    .slider-card .txt-super {
+        line-height: 20px;
+    }
+    .slider-card .txt-head {
+        font-size: 24px;
+        line-height: 1em;
+    }
+    .slider-card .txt-body {
+        font-size: 14px;
+        line-height: 1.5em;
+    }
+    .slider-card .button {
+        font-size: 14px;
     }
 }
