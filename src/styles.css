@@ -1614,4 +1614,21 @@ footer a {
         width: 90%;
         padding-bottom: 10px;
     }
+
+    .tile > div {
+        margin-top: 55%;
+    }
+    #tile-2 > div {
+        margin-top: 55%;
+    }
+    #tile-3 > div {
+        margin-top: calc(55% + 23px);
+    }
+
+    #tile-4 > div {
+        margin-top: calc(50% + 19px);
+    }
+    #tile-5 > div {
+        margin-top: 50%;
+    }
 }
