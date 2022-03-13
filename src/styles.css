@@ -1609,4 +1609,9 @@ footer a {
     .slider-card .button {
         font-size: 14px;
     }
+
+    .showcase-img {
+        width: 90%;
+        padding-bottom: 10px;
+    }
 }
