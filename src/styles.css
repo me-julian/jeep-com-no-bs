@@ -1545,5 +1545,44 @@ footer a {
     }
 }
 
-/* @media screen and (min-width: 1440px) {
-} */
+@media screen and (min-width: 1440px) {
+    #site-logo {
+        padding-right: 15px;
+    }
+    #site-logo > img {
+        width: 90px;
+    }
+    .nav-item {
+        font-size: 14px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .dropdowns > a > i {
+        font-size: 12px;
+        padding-left: 12px;
+    }
+    nav > .dropdowns > .nav-item > .link-icon {
+        font-size: 10px;
+        position: relative;
+        bottom: 1px;
+        vertical-align: baseline;
+        padding-left: 0.75em;
+    }
+    #expanded-hamburger {
+        align-items: center;
+    }
+    #expanded-hamburger > .nav-item {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        line-height: 17px;
+        max-width: 90px;
+    }
+    #expanded-hamburger > .nav-item:last-of-type {
+        margin: 0;
+    }
+    #spanish {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+}
