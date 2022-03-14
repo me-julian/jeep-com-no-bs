@@ -97,6 +97,14 @@ sup {
     margin-bottom: 0.25em;
 }
 
+.disclosure {
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
 .link-icon {
     font-size: 10px;
     position: relative;
@@ -135,12 +143,12 @@ nav {
 }
 
 .dropdowns > a > i {
-    padding-left: 1em;
+    padding-left: 10px;
 }
 
 #site-logo {
     margin-right: auto;
-    padding-left: 0.85em;
+    padding-left: 15px;
 }
 
 #site-logo > img {
@@ -884,13 +892,11 @@ footer a {
     }
 }
 
-@media (orientation: landscape) {
-    #site-logo {
-        padding-left: 15px;
-    }
-}
-
 @media screen and (min-width: 667px) {
+    #site-logo {
+        padding-left: 0.85em;
+    }
+
     .button {
         display: inline-block;
     }
@@ -932,6 +938,10 @@ footer a {
     #jeep-wave > div {
         padding-right: 2rem;
         padding-left: 2rem;
+    }
+
+    #community > .txt-head {
+        padding-top: 75px;
     }
 
     footer > div {
@@ -1008,6 +1018,12 @@ footer a {
     }
 }
 
+@media screen and (min-width: 700px) and (orientation: landscape) {
+    #site-logo {
+        padding-left: 15px;
+    }
+}
+
 @media screen and (min-width: 700px) {
     nav {
         height: 80px;
@@ -1029,7 +1045,6 @@ footer a {
     }
     .slider-card .overlay-card div:first-of-type {
         font-size: 16px;
-        margin-bottom: 5px;
     }
     .slider-card .txt-head {
         font-size: 15px;
@@ -1167,7 +1182,6 @@ footer a {
     }
 
     #community > .txt-head {
-        padding-top: 75px;
         font-size: 33px;
     }
     #community-top-row {
@@ -1560,7 +1574,7 @@ footer a {
     }
     .dropdowns > a > i {
         font-size: 12px;
-        padding-left: 12px;
+        padding-left: 10px;
     }
     nav > .dropdowns > .nav-item > .link-icon {
         font-size: 10px;
@@ -1596,10 +1610,11 @@ footer a {
         margin: 0;
     }
     .slider-card .txt-super {
+        font-size: 14px;
         line-height: 20px;
     }
     .slider-card .txt-head {
-        font-size: 24px;
+        font-size: 25px;
         line-height: 1em;
     }
     .slider-card .txt-body {
