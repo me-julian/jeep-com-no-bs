@@ -1631,4 +1631,33 @@ footer a {
     #tile-5 > div {
         margin-top: 50%;
     }
+
+    #wagoneer > .overlay-card {
+        height: auto;
+        width: 35%;
+        padding: 40px !important;
+    }
+    #wagoneer .txt-head {
+        font-size: 35px;
+    }
+    #wagoneer .txt-body,
+    #wagoneer .button {
+        font-size: 14px;
+    }
+    #jeep-wave > .show-1440 {
+        max-width: 50%;
+        flex-basis: 50%;
+    }
+
+    #e-shop > .overlay-card {
+        width: 35%;
+        padding: 40px !important;
+    }
+    #e-shop .overlay-card > img {
+        width: auto;
+    }
+    #e-shop .overlay-card > .txt-body,
+    #e-shop .overlay-card > .button {
+        font-size: 14px;
+    }
 }
