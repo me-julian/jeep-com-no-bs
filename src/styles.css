@@ -1541,7 +1541,7 @@ footer a {
         padding-right: 0px;
     }
     #copyright {
-        max-width: 41.66%;
+        max-width: 41.66vw;
         padding-left: 61px;
     }
 }
@@ -1659,5 +1659,42 @@ footer a {
     #e-shop .overlay-card > .txt-body,
     #e-shop .overlay-card > .button {
         font-size: 14px;
+    }
+
+    #top-footer {
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    #top-footer > div {
+        column-gap: 40px;
+    }
+    #top-footer > div > a {
+        margin-bottom: 0;
+    }
+    .search-bar {
+        margin-top: 0;
+        width: auto;
+        flex-basis: auto;
+    }
+
+    #mid-footer {
+        padding-right: 124px;
+        padding-left: 124px;
+        height: 766px;
+    }
+
+    #bottom-footer {
+        padding-right: 0;
+        padding-left: 0;
+        margin: auto;
+        width: calc(83.33vw - 30px);
+    }
+    #bottom-footer > div:first-child {
+        margin: initial;
+    }
+    #copyright {
+        padding: 0;
     }
 }
