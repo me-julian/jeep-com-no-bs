@@ -381,24 +381,24 @@ nav {
 }
 
 #tile-1 {
-    background-image: url('/img/tiles/mob/tiles-compass-mob.jpg');
+    background-image: url('jeep-com-no-bs/img/tiles/mob/tiles-compass-mob.jpg');
 }
 
 #tile-2 {
-    background-image: url('/img/tiles/mob/tiles-wrangler-mob.jpg');
+    background-image: url('jeep-com-no-bs/img/tiles/mob/tiles-wrangler-mob.jpg');
 }
 
 #tile-3 {
-    background-image: url('/img/tiles/mob/tiles-gladiator-mob.jpg');
+    background-image: url('jeep-com-no-bs/img/tiles/mob/tiles-gladiator-mob.jpg');
 }
 
 #tile-4 {
-    background-image: url('/img/tiles/mob/tiles-red-tab.jpg');
+    background-image: url('jeep-com-no-bs/img/tiles/mob/tiles-red-tab.jpg');
 }
 
 #tile-5 {
     color: var(--dark-color);
-    background-image: url('/img/tiles/mob/tiles-kbb-mob.jpg');
+    background-image: url('jeep-com-no-bs/img/tiles/mob/tiles-kbb-mob.jpg');
 }
 
 /* Banners */
@@ -551,35 +551,35 @@ div#community-2 {
 }
 
 #community-1 {
-    background-image: url('/img/social/youtube/mob/youtube-mob.jpg');
+    background-image: url('jeep-com-no-bs/img/social/youtube/mob/youtube-mob.jpg');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
 }
 
 #community-2 {
-    background-image: url('/img/social/instagram/mob/instagram-mob.jpg');
+    background-image: url('jeep-com-no-bs/img/social/instagram/mob/instagram-mob.jpg');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
 }
 
 #community-3 {
-    background-image: url('/img/social/facebook/mob/facebook-mob.jpg');
+    background-image: url('jeep-com-no-bs/img/social/facebook/mob/facebook-mob.jpg');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
 }
 
 #community-4 {
-    background-image: url('/img/social/twitter/mob/twitter-mob.jpg');
+    background-image: url('jeep-com-no-bs/img/social/twitter/mob/twitter-mob.jpg');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
 }
 
 #community-5 {
-    background-image: url('/img/social/linkedin/mob/linkedin-mob.jpg');
+    background-image: url('jeep-com-no-bs/img/social/linkedin/mob/linkedin-mob.jpg');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -1090,17 +1090,17 @@ footer a {
         margin-bottom: 20px;
     }
     #tile-1 {
-        background-image: url('/img/tiles/mob/tiles-compass-tab.jpg');
+        background-image: url('jeep-com-no-bs/img/tiles/mob/tiles-compass-tab.jpg');
         height: auto;
         background-size: cover !important;
     }
     #tile-2 {
-        background-image: url('/img/tiles/mob/tiles-wrangler-tab.jpg');
+        background-image: url('jeep-com-no-bs/img/tiles/mob/tiles-wrangler-tab.jpg');
         height: auto;
         background-size: cover !important;
     }
     #tile-3 {
-        background-image: url('/img/tiles/mob/tiles-gladiator-tab.jpg');
+        background-image: url('jeep-com-no-bs/img/tiles/mob/tiles-gladiator-tab.jpg');
         height: auto;
         background-size: cover !important;
     }
@@ -1108,7 +1108,7 @@ footer a {
         padding-top: 1em;
     }
     #tile-4 {
-        background-image: url('/img/tiles/mob/tiles-red-tab.jpg');
+        background-image: url('jeep-com-no-bs/img/tiles/mob/tiles-red-tab.jpg');
         height: auto;
         background-size: cover !important;
     }
@@ -1117,7 +1117,7 @@ footer a {
         margin-bottom: 35px;
     }
     #tile-5 {
-        background-image: url('/img/tiles/mob/tiles-kbb-tab.jpg');
+        background-image: url('jeep-com-no-bs/img/tiles/mob/tiles-kbb-tab.jpg');
         height: auto;
         background-size: cover !important;
     }
@@ -1207,19 +1207,19 @@ footer a {
         bottom: 32px;
     }
     #community-1 {
-        background-image: url('/img/social/youtube/mob/youtube-tab.jpg');
+        background-image: url('jeep-com-no-bs/img/social/youtube/mob/youtube-tab.jpg');
     }
     #community-2 {
-        background-image: url('/img/social/instagram/mob/instagram-tab.jpg');
+        background-image: url('jeep-com-no-bs/img/social/instagram/mob/instagram-tab.jpg');
     }
     #community-3 {
-        background-image: url('/img/social/facebook/mob/facebook-tab.jpg');
+        background-image: url('jeep-com-no-bs/img/social/facebook/mob/facebook-tab.jpg');
     }
     #community-4 {
-        background-image: url('/img/social/twitter/mob/twitter-tab.jpg');
+        background-image: url('jeep-com-no-bs/img/social/twitter/mob/twitter-tab.jpg');
     }
     #community-5 {
-        background-image: url('/img/social/linkedin/mob/linkedin-tab.jpg');
+        background-image: url('jeep-com-no-bs/img/social/linkedin/mob/linkedin-tab.jpg');
     }
 
     #top-footer {
@@ -1376,28 +1376,28 @@ footer a {
         margin-bottom: 30px;
     }
     #tile-1 {
-        background-image: url('/img/tiles/desk/tiles-compass-desk.jpg');
+        background-image: url('jeep-com-no-bs/img/tiles/desk/tiles-compass-desk.jpg');
     }
     #tile-2 {
-        background-image: url('/img/tiles/desk/tiles-wrangler-desk.jpg');
+        background-image: url('jeep-com-no-bs/img/tiles/desk/tiles-wrangler-desk.jpg');
     }
     #tile-2 > div {
         margin-top: calc(45% - 23px);
     }
     #tile-3 {
-        background-image: url('/img/tiles/desk/tiles-gladiator-desk.jpg');
+        background-image: url('jeep-com-no-bs/img/tiles/desk/tiles-gladiator-desk.jpg');
     }
     #tile-3 .txt-head {
         padding-top: 0;
     }
     #tile-4 {
-        background-image: url('/img/tiles/desk/tiles-red-desk.jpg');
+        background-image: url('jeep-com-no-bs/img/tiles/desk/tiles-red-desk.jpg');
     }
     #tile-4 > div {
         margin: 26% 100px 40px;
     }
     #tile-5 {
-        background-image: url('/img/tiles/desk/tiles-kbb-desk.jpg');
+        background-image: url('jeep-com-no-bs/img/tiles/desk/tiles-kbb-desk.jpg');
     }
     #tile-5 > div {
         margin: 26% 100px 40px;
