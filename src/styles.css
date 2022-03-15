@@ -869,7 +869,7 @@ footer a {
         display: initial;
     }
 }
-@media screen and (min-width: 667px) and (max-width: 767px) {
+@media screen and (min-width: 667px) and (max-width: 699px) {
     .show-667 {
         display: initial;
     }
