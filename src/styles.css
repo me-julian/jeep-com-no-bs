@@ -411,7 +411,7 @@ nav {
 }
 
 .banner > img {
-    max-width: 100%;
+    width: 100%;
     flex: 1;
 }
 
@@ -461,10 +461,6 @@ nav {
     padding: 0 1.6rem 1rem 1.6rem;
 }
 
-#jeep-wave > img {
-    max-width: 100%;
-}
-
 #jeep-wave .txt-head {
     font-size: 1.9em;
     line-height: 1em;
@@ -486,11 +482,6 @@ nav {
 }
 
 /* E-Shop Banner */
-
-#e-shop > img {
-    max-width: 100%;
-    flex: 1;
-}
 
 #e-shop .txt-body {
     margin-top: 0.5em;
